@@ -13,13 +13,13 @@ import psy from "../../public/interests-icon/psychology.svg";
 
 const Interests = () => {
   return (
-    <div className="relative w-full h-[620px] bg-[#0c1311]">
+    <div className="relative w-full h-[620px] bg-[#0c1311] pt-20">
       <div className="w-full h-full bg-[#0C1311] bg-opacity-70 px-16">
         <h1
           dir="rtl"
           className="font-cute-font text-secondary text-7xl text-center pt-16 flex flex-col items-center justify-center"
         >
-          <p className="border-b-4 border-secondary">Hobbies and Interests</p>
+          <p className="border-b-4 border-secondary pt-20">Hobbies and Interests</p>
           <p className="text-white text-lg font-poppins py-5">
             Beyond pixels and code, stories that captivate and inspire
           </p>
