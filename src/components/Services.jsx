@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div className="w-full h-[900px] bg-[url(/images/Services-background.jpg)] relative bg-cover bg-center bg-no-repeat">
+    <div id="services" className="w-full h-[900px] bg-[url(/images/Services-background.jpg)] relative bg-cover bg-center bg-no-repeat">
       <div className="w-full h-full absolute top-0 left-0 bg-[#0C1311] bg-opacity-70 px-16">
         <h1
           dir="rtl"

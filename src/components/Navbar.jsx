@@ -20,11 +20,11 @@ const Navbar = () => {
       </div>
       <div className="w-8/12 flex space-x-10 justify-center items-center">
         <a href="">Home</a>
-        <a href="">About Me</a>
-        <a href="">Services</a>
-        <a href="">Skills</a>
-        <a href="">Projects</a>
-        <a href="">Contact</a>
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   );

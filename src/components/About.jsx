@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="bg-[#0c1311] w-full pb-8 relative overflow-hidden">
+    <div id="about" className="bg-[#0c1311] w-full pb-8 relative overflow-hidden">
       <svg
         className="absolute -top-28 -right-24 z-0 transform rotate-45 overflow-hidden"
         width="250"
