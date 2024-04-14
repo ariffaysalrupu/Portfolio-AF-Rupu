@@ -6,6 +6,8 @@ import maya from "../../public/projects/maya.jpg";
 import neuro from "../../public/projects/neuro.jpg";
 import noma from "../../public/projects/noma.jpg";
 import verd from "../../public/projects/verd.jpg";
+import case1 from "../../public/projects/case1.jpg";
+import case2 from "../../public/projects/case2.jpg";
 
 const Projects = () => {
   return (
@@ -129,7 +131,7 @@ const Projects = () => {
                 </a>
                 <div className="absolute bottom-0 z-20 m-0 pb-4 ps-2 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
                   <p className="font-serif text-lg font-bold text-white shadow-xl  group-hover:block hidden">
-                    Neuro
+                    Neuroblast
                   </p>
                 </div>
               </div>
@@ -147,7 +149,7 @@ const Projects = () => {
                 </a>
                 <div className="absolute bottom-0 z-20 m-0 pb-4 ps-2 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
                   <p className="font-serif text-lg font-bold text-white shadow-xl  group-hover:block hidden">
-                    Noma
+                    Nomadly
                   </p>
                 </div>
               </div>
@@ -165,9 +167,47 @@ const Projects = () => {
                 </a>
                 <div className="absolute bottom-0 z-20 m-0 pb-4 ps-2 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
                   <p className="font-serif text-lg font-bold text-white shadow-xl  group-hover:block hidden">
-                    Verd
+                    Verdant
                   </p>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex justify-center items-center space-x-5">
+            <div className="group relative m-0 flex rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+              <a
+                href="https://www.behance.net/gallery/171761797/UX-Case-Study-of-a-Bus-Tracking-App"
+                target="_blank"
+                className="z-10 h-60 w-full overflow-hidden rounded-xl border border-[#676a72] opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70 "
+              >
+                <img
+                  src={case1}
+                  className="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110 hover:blur-md"
+                  alt=""
+                />
+              </a>
+              <div className="absolute bottom-0 z-20 m-0 pb-4 ps-2 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+                <p className="font-serif text-lg font-bold text-white shadow-xl  group-hover:block hidden">
+                  Routzz
+                </p>
+              </div>
+            </div>
+            <div className="group relative m-0 flex rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+              <a
+                href="https://www.behance.net/gallery/171761797/UX-Case-Study-of-a-Bus-Tracking-App"
+                target="_blank"
+                className="z-10 h-60 w-full overflow-hidden rounded-xl border border-[#676a72] opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70 "
+              >
+                <img
+                  src={case2}
+                  className="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110 hover:blur-md"
+                  alt=""
+                />
+              </a>
+              <div className="absolute bottom-0 z-20 m-0 pb-4 ps-2 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+                <p className="font-serif text-lg font-bold text-white shadow-xl  group-hover:block hidden">
+                  Goggo
+                </p>
               </div>
             </div>
           </div>

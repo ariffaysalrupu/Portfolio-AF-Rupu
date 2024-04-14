@@ -33,10 +33,10 @@ const HeroArea = () => {
                 <i className="fa fa-solid fa-arrow-down mr-2"></i> Download CV
               </a>
             </button>
-            <button className="w-48 h-14 border-2 border-white rounded-md bg-transparent">
+            {/* <button className="w-48 h-14 border-2 border-white rounded-md bg-transparent">
               <i className="fa fa-solid fa-phone-volume mr-2"></i>Let&apos;s
               Talk
-            </button>
+            </button> */}
           </div>
         </div>
         <div className="w-1/2 flex items-center justify-center">
