@@ -9,7 +9,7 @@ import verd from "../../public/projects/verd.jpg";
 
 const Projects = () => {
   return (
-    <div className="w-full h-[900px] relative bg-[#0c1311]">
+    <div id="projects" className="w-full h-[900px] relative bg-[#0c1311]">
       <div className="w-full h-full absolute top-0 left-0 bg-[#0C1311] bg-opacity-70 px-16">
         <h1
           dir="rtl"

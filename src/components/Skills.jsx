@@ -14,7 +14,7 @@ import bioImage from "../../public/images/bio.jpg";
 const Skills = () => {
   const [selected, setSelected] = useState("Skills");
   return (
-    <div className="w-full h-auto bg-[#0c1311] pb-6">
+    <div id="skills" className="w-full h-auto bg-[#0c1311] pb-6">
       <h1
         dir="rtl"
         className="font-cute-font text-secondary text-7xl text-center pt-16 flex flex-col items-center justify-center"
